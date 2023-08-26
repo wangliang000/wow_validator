@@ -1,0 +1,19 @@
+{
+  "name": "wow_validator",
+  "version": "0.0.1",
+  "description": "This is a validation method library",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config ./webpack.config.js"
+  },
+  "keywords": [
+    "toolkit"
+  ],
+  "author": "wangliang000",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
